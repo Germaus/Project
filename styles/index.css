@@ -182,8 +182,6 @@ border: none;
 margin-left: 10px;
 text-decoration: line-through;
 box-sizing: border-box;
-border-right: 5px solid rgb(85, 44, 219); 
-
 }
 
 .task4 {
@@ -244,6 +242,7 @@ box-sizing: border-box;
 background-color: white;
 border: 1px;
 border-radius: 10px;
+border-right: 5px solid rgb(85, 44, 219);
 }
 
 .circle {
