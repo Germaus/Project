@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Task manager app</title>
-<link rel="stylesheet" href="./styles/index.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
 
 </head>
 <body>
@@ -13,11 +13,11 @@
 
 <div class="header-top">
 <h1>To do list</h1>
-<img class="upload-icon" src="./upload-3-xxl.png" alt="Upload">
+<img class="upload-icon" src="{{ url_for('static', filename='images/upload-3-xxl.png') }}">
 </div>
 
 <div class="search-box">
-<img class="search-icon" src="OIP.webp">
+<img class="search-icon" src="{{ url_for('static', filename='images/OIP.webp') }}">
 <input type="text" placeholder="Search tasks...">
   
 </div>
@@ -31,7 +31,7 @@
 <h2>Today</h2>
 <button class="delete-all">
 Delete all
-<img class="delete-icon" src="OIP3.webp">
+<img class="delete-icon" src="{{ url_for('static', filename='images/OIP3.webp') }}">
 </button>
 </div>
   
